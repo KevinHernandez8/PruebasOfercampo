@@ -1,0 +1,989 @@
+<html lang="es-CO" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fontawesome-i2svg-active fontawesome-i2svg-complete"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="82Jomj441ZUdzBuVf7piL0Z7ut9FQjkqpXrA2HzJxzGQAw3LbQ6Zz3qAf6Yu7yVdFRXiiyMUd1_AKY2yRP2MXg==">
+    <title>Ofercampo</title>
+    <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1em}.svg-inline--fa.fa-stack-2x{height:2em;width:2em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style><link rel="shortcut icon" href="/ofercampo/web/favicon.ico" type="image/x-icon">
+    <link href="/ofercampo/web/assets/f377f89d/css/bootstrap.min.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/font-awesome.min.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/elegent.min.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/plugins.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/helper.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/main.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/basic.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/f377f89d/css/dropzone.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/de6b22b6/slider/main.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/de6b22b6/searchbar/main.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/de6b22b6/commons/main.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/5315a8f3/css/star-rating.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/5315a8f3/themes/krajee-fas/theme.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/615560ab/css/kv-widgets.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/1c06d653/toastr/toastr.min.css" rel="stylesheet">
+<link href="/ofercampo/web/assets/1a1d1b67/base.css" rel="stylesheet">
+<link href="/ofercampo/web/css/site.css" rel="stylesheet">
+<style>
+            .search-bar.section-bg {
+                background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url("/ofercampo/web/images/dashboard/full.png");
+            }</style>
+<style>
+            .featured-product-image-gallery.section-bg {
+                background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url("/ofercampo/web/images/dashboard/limones.png");
+            }</style>
+<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer="" crossorigin="anonymous"></script>
+<script>window.rating_0ea3cc8d = {"displayOnly":true,"showCaption":false,"size":"xs","language":"es","theme":"krajee-fas"};
+</script>
+</head>
+
+<body>
+    
+    <!--  -->
+    <!--=============================================
+	=            Header         =
+	=============================================-->
+
+<header>
+    <!--=======  header top  =======-->
+
+    <div class="header-top pt-10 pb-10 pt-lg-10 pb-lg-10 pt-md-10 pb-md-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center text-sm-left">
+                    <!-- logo -->
+                    <div class="logo mt-0 mb-0">
+                        <a href="index">
+                            <img src="/ofercampo/web/images/logo-horizontal.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <!-- end of logo -->
+                </div>
+                <div class="col-lg-10 col-md-9 col-sm-6 col-xs-12  text-center text-sm-right">
+                    <!-- header top menu -->
+                    <div class="header-top-menu">
+                        <ul>
+                                                            <li>
+                                    <a href="/ofercampo/web/site/login" class="btn btn-outline-success btn-sm load-modal">Iniciar sesión</a>
+                                </li>
+                                <li>
+                                    <a href="/ofercampo/web/site/register" class="btn btn-outline-success btn-sm load-modal">Registrarme</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                    <!-- end of header top menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of header top  =======-->
+
+    <!--=======  header bottom  =======-->
+
+    <div class="header-bottom header-bottom-one header-sticky">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+
+                    <!-- navigation section -->
+                    <div class="main-menu">
+
+
+                        <nav style=" display:block; "><ul class="" style="justify-content: center;display: flex;"><li class="open active"><a data-method="post" class="active" href="/ofercampo/web/site/index"> Inicio </a></li>
+<li class=""><a data-method="post" class="collapsed" href="/ofercampo/web/want-buy"> Quiero comprar </a></li>
+<li class=""><a data-method="post" class="collapsed" href="/ofercampo/web/want-sell"> Quiero vender </a></li>
+<li class=""><a data-method="post" class="collapsed" href="/ofercampo/web/site/how-work"> Cómo funciona </a></li>
+<li class=""><a data-method="post" class="collapsed" href="/ofercampo/web/site/contact"> Contacto </a></li></ul></nav>
+                    </div>
+                    <!-- end of navigation section -->
+                </div>
+                <div class="col-12">
+                    <!-- Mobile Menu -->
+                    <div class="mobile-menu d-block d-lg-none"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of header bottom  =======-->
+</header>
+
+<!--=====  End of Header  ======-->
+    <!-- <div class="container" style="margin-bottom:20px;"> -->
+    <div class="site-index">
+
+    <!--=============================================
+	=            Search Bar          =
+	=============================================-->
+<div class="search-bar section-bg mb-40">
+	<div class="container">
+		<div class="title">
+			<h2>Compre y venda en el mercado agrícola en línea del Tolima</h2>
+		</div>
+		<div class="w-100 mt-40">
+			<form id="search-form" class="contenedor-x" action="/ofercampo/web/publications/index" method="get">			<div class="mr-15">
+				<div class="form-group field-publications-categories">
+
+<select id="publications-categories" class="nice-select" name="Publications[categories]" style="display: none;">
+<option value="4">Alimentos</option>
+<option value="2">Fertilizantes</option>
+<option value="5">Insumos veterinarios</option>
+<option value="6">Otros insumos agrícolas</option>
+<option value="3">Plaguicidas</option>
+<option value="1">Semillas</option>
+<option value="7">Servicios</option>
+</select><div class="nice-select" tabindex="0"><span class="current">Alimentos</span><ul class="list"><li data-value="4" class="option selected">Alimentos</li><li data-value="2" class="option">Fertilizantes</li><li data-value="5" class="option">Insumos veterinarios</li><li data-value="6" class="option">Otros insumos agrícolas</li><li data-value="3" class="option">Plaguicidas</li><li data-value="1" class="option">Semillas</li><li data-value="7" class="option">Servicios</li></ul></div>
+
+<div class="invalid-feedback"></div>
+</div>			</div>
+			<div class="header-advance-search">
+				<div class="view-mode-icons">
+					<a class="active" href="#" onclick="setTypeSearch('S')" data-target="grid">COMPRAR</a>
+					<input type="hidden" id="searchmodel-type" name="Publications[type]" value="S">					<a href="#" onclick="setTypeSearch('P')" data-target="list" class="">VENDER</a>
+				</div>
+				<div class="view-mode-input">
+					<input type="text" id="publications-searchtext" name="Publications[searchText]" placeholder="¿Qué esta buscando?">					<button><span class="icon_search"></span></button>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!--=====  End of Search Bar   ======-->    <!--=============================================
+	=            Double banner          =
+	=============================================-->
+<style>
+    .double-banner-section .image {
+        height: 20rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .single-banner .image {
+        border-radius: 5px;
+        padding: 0px 2rem;
+    }
+
+    .double-banner-section .image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .double-banner-section .btn-text,
+    .double-banner-section .text-container {
+        align-self: flex-end;
+    }
+
+    .double-banner-section .text-container {
+        color: #fff;
+        font-size: 2rem;
+        text-align: right;
+        line-height: 2rem;
+    }
+</style>
+<div class="double-banner-section mb-35">
+    <div class="container">
+
+
+        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 mb-xs-35">
+                    <!--=======  single banner  =======-->
+
+                    <div class="single-banner">
+                        <!-- <a href="/ofercampo/web/site/register"> -->
+                        <div class="image" style="background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url('/ofercampo/web/images/dashboard/banner-1.png')">
+                            <div class="text-container"><p style="font-size: 1.6rem;">En Ofercampo podrá:</p><p style="font-size: 1.2rem;"><strong>Publicar</strong> productos y servicios para <strong>vender</strong></p><p style="font-size: 1.2rem;"><strong>Solicitar</strong> productos y servicios de su <strong>interés</strong></p></div>
+                            <a class="btn-text btn btn-warning load-modal" href="/ofercampo/web/site/register">                            ¡Regístrese ahora!                            </a>                        </div>
+                        <!-- </a> -->
+                    </div>
+
+                    <!--=======  End of single banner  =======-->
+                </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 mb-xs-35">
+                    <!--=======  single banner  =======-->
+
+                    <div class="single-banner">
+                        <!-- <a href="/ofercampo/web/site/how-work"> -->
+                        <div class="image" style="background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url('/ofercampo/web/images/dashboard/banner-2.png')">
+                            <div class="text-container">Solicitar y recibir ofertas es fácil y rápido</div>
+                            <a class="btn-text btn btn-outline-light " href="/ofercampo/web/site/how-work">                            ¿Cómo funciona?                            </a>                        </div>
+                        <!-- </a> -->
+                    </div>
+
+                    <!--=======  End of single banner  =======-->
+                </div>
+                    </div>
+    </div>
+</div>
+
+<!--=====  End of Double banner   ======-->    
+<!--=============================================
+	=            Best seller slider         =
+	=============================================-->
+
+<style>
+    .slider.best-seller-slider .image {
+        height: 7rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .best-seller-sub-product {
+        cursor: pointer;
+    }
+</style>
+
+<div class="slider best-seller-slider mb-35">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  category slider section title  =======-->
+
+                <div class="section-title">
+                    <h3>Últimas publicaciones</h3>
+                </div>
+
+                <!--=======  End of category slider section title  =======-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  best seller slider container  =======-->
+
+                <div class="best-seller-slider-container pt-15 pb-15 slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow slick-disabled" aria-disabled="true" style=""><svg class="svg-inline--fa fa-caret-left fa-w-6" aria-hidden="true" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg><!-- <i class="fa fa-caret-left"></i> --></button>
+
+                                                                        <!--=======  single best seller product  =======-->
+                            
+                                                <!--=======  End of single best seller product  =======-->
+
+                                                                        <!--=======  single best seller product  =======-->
+                            
+                                                <!--=======  End of single best seller product  =======-->
+
+                                                                        <!--=======  single best seller product  =======-->
+                            
+                                                <!--=======  End of single best seller product  =======-->
+
+                                                                        <!--=======  single best seller product  =======-->
+                            
+                                                <!--=======  End of single best seller product  =======-->
+
+                    
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1240px; transform: translate3d(0px, 0px, 0px);"><div class="col slick-slide slick-current slick-active" style="width: 310px;" data-slick-index="0" aria-hidden="false" tabindex="0">
+                                <div class="single-best-seller-item">
+                                                                <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=11" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=11" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/9/aguacate_lorena.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/9/aguacate_lorena.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-success">Se compra</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=11" tabindex="0">Aguacate</a></h3>
+                                                <p class="m-0">80 t</p>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <!--=======  End of single best seller product  =======-->
+
+                                                                            <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=10" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=10" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/27/lulo.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/27/lulo.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-danger">Se vende</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=10" tabindex="0">Lulo</a></h3>
+                                                <p class="m-0">5 kg</p>
+                                                                                                    <div class="price-box">
+                                                        <span class="discounted-price">$&nbsp;50.000,00 / kg</span>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                </div>
+                            </div><div class="col slick-slide slick-active" style="width: 310px;" data-slick-index="1" aria-hidden="false" tabindex="0">
+                                <div class="single-best-seller-item">
+                                                                <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=3" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=3" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/publications/3/hass.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/publications/3/hass.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-danger">Se vende</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=3" tabindex="0">Aguacate</a></h3>
+                                                <p class="m-0">100 kg</p>
+                                                                                                    <div class="price-box">
+                                                        <span class="discounted-price">$&nbsp;600.000,00 / kg</span>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <!--=======  End of single best seller product  =======-->
+
+                                                                            <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=4" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=4" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/9/aguacate_lorena.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/9/aguacate_lorena.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-danger">Se vende</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=4" tabindex="0">Aguacate</a></h3>
+                                                <p class="m-0">500 kg</p>
+                                                                                                    <div class="price-box">
+                                                        <span class="discounted-price">$&nbsp;0,00 / kg</span>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                </div>
+                            </div><div class="col slick-slide slick-active" style="width: 310px;" data-slick-index="2" aria-hidden="false" tabindex="0">
+                                <div class="single-best-seller-item">
+                                                                <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=5" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=5" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/10/aguacate_choquette.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/10/aguacate_choquette.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-success">Se compra</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=5" tabindex="0">Aguacate</a></h3>
+                                                <p class="m-0">85 kg</p>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <!--=======  End of single best seller product  =======-->
+
+                                                                            <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=1" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=1" tabindex="0">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/1/siembra.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/1/siembra.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-danger">Se vende</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=1" tabindex="0">Siembra</a></h3>
+                                                <p class="m-0">1 un</p>
+                                                                                                    <div class="price-box">
+                                                        <span class="discounted-price">$&nbsp;10.000.000,00 / un</span>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                </div>
+                            </div><div class="col slick-slide" style="width: 310px;" data-slick-index="3" aria-hidden="true" tabindex="-1">
+                                <div class="single-best-seller-item">
+                                                                <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=7" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=7" tabindex="-1">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/23/limon_tahiti.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/23/limon_tahiti.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-success">Se compra</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=7" tabindex="-1">Limón</a></h3>
+                                                <p class="m-0">80 kg</p>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <!--=======  End of single best seller product  =======-->
+
+                                                                            <div class="best-seller-sub-product" data-url="/ofercampo/web/publications/view?id=8" onclick="reloadWindow(this)">
+                                    <div class="row">
+                                        <div class="col-lg-4 pl-0 pr-0">
+                                            <div class="image">
+                                                <a href="/ofercampo/web/publications/view?id=8" tabindex="-1">
+                                                    <div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/uploads/products/27/lulo.jpg')"></div>
+                                                    <!-- <img src="http://test.ticmakers.com/ofercampo/web/uploads/products/27/lulo.jpg" class="img-fluid" alt=""> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pl-0 pr-0">
+                                            <div class="product-content m-1">
+                                                <div class="product-categories">
+                                                                                                    </div>
+                                                                                                    <label class="ribbon ribbon-left  ribbon-success">Se compra</label>
+                                                
+                                                <h3 class="product-title m-0 font-weight-bold"><a href="/ofercampo/web/publications/view?id=8" tabindex="-1">Lulo</a></h3>
+                                                <p class="m-0">70 kg</p>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                </div>
+                            </div></div></div><button type="button" class="slick-next slick-arrow" style="" aria-disabled="false"><svg class="svg-inline--fa fa-caret-right fa-w-6" aria-hidden="true" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg><!-- <i class="fa fa-caret-right"></i> --></button></div>
+
+                <!--=======  End of best seller slider container  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--=====  End of Best seller slider  ======-->
+        <!--=============================================
+	=            Featured product image gallery         =
+	=============================================-->
+<style>
+    .featured-product-image-gallery.section-bg {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .featured-product-image-gallery .image {
+        height: 15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform .5s ease;
+    }
+
+    .featured-product-image-gallery .image:hover {
+        transform: scale(1.1);
+    }
+
+    .featured-product-image-gallery .single-product-content i {
+        font-size: 9rem;
+    }
+
+    @font-face {
+        font-family: "Principal",
+        src: url('fonts/principal-page.woff');
+    }
+</style>
+<div class="featured-product-image-gallery mb-80 pt-120 section-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  gallery product container  =======-->
+                <div class="gallery-product-container">
+                                                                        <div class="row no-gutters">
+                                <div class="col-lg-2 col-sm-0"></div>
+                            
+                            <div class="col-lg-4 col-sm-6">
+                                <!--=======  single featured product  =======-->
+                                <div class="single-featured-product">
+                                    <a href="/ofercampo/web/site/index">
+                                        <div class="featured-product success">
+                                            <div class="single-product-content">
+                                                                                                    <i class="icon-handshake"></i>
+                                                                                            </div>
+                                            <div class="single-product-footer">
+                                                Elimine intermediarios                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--=======  End of single featured product  =======-->
+                            </div>
+
+                                                                        
+                            <div class="col-lg-4 col-sm-6">
+                                <!--=======  single featured product  =======-->
+                                <div class="single-featured-product">
+                                    <a href="/ofercampo/web/site/index">
+                                        <div class="featured-product ">
+                                            <div class="single-product-content">
+                                                                                                    <i class="icon-tag"></i>
+                                                                                            </div>
+                                            <div class="single-product-footer">
+                                                Mejore sus ingresos                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--=======  End of single featured product  =======-->
+                            </div>
+
+                                                        </div>
+                                                                                                <div class="row no-gutters">
+                                <div class="col-lg-2 col-sm-0"></div>
+                            
+                            <div class="col-lg-4 col-sm-6">
+                                <!--=======  single featured product  =======-->
+                                <div class="single-featured-product">
+                                    <a href="/ofercampo/web/site/index">
+                                        <div class="featured-product ">
+                                            <div class="single-product-content">
+                                                                                                    <i class="icon-promotion"></i>
+                                                                                            </div>
+                                            <div class="single-product-footer">
+                                                Promocione su marca                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--=======  End of single featured product  =======-->
+                            </div>
+
+                                                                        
+                            <div class="col-lg-4 col-sm-6">
+                                <!--=======  single featured product  =======-->
+                                <div class="single-featured-product">
+                                    <a href="/ofercampo/web/site/index">
+                                        <div class="featured-product success">
+                                            <div class="single-product-content">
+                                                                                                    <i class="icon-save-money"></i>
+                                                                                            </div>
+                                            <div class="single-product-footer">
+                                                100% Gratuita                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--=======  End of single featured product  =======-->
+                            </div>
+
+                                                        </div>
+                                                            </div>
+                <!--=======  End of gallery product container  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--=====  End of Featured product image gallery  ======-->
+    <!--=============================================
+	=            user slider         =
+	=============================================-->
+
+<div class="slider user-slider mb-35">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!--=======  category slider section title  =======-->
+
+				<div class="section-title">
+					<h3>Usuarios destacados</h3>
+				</div>
+
+				<!--=======  End of category slider section title  =======-->
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<!--=======  category container  =======-->
+
+				<div class="category-slider-container slick-initialized slick-slider">
+
+											<!--=======  single category  =======-->
+
+						
+
+						<!--=======  End of single category  =======-->
+											<!--=======  single category  =======-->
+
+						
+
+						<!--=======  End of single category  =======-->
+											<!--=======  single category  =======-->
+
+						
+
+						<!--=======  End of single category  =======-->
+					
+				<div class="slick-list"><div class="slick-track" style="opacity: 1; width: 558px; transform: translate3d(0px, 0px, 0px);"><div class="single-category col-6 slick-slide slick-current slick-active" style="width: 186px;" data-slick-index="0" aria-hidden="false" tabindex="0">
+							<div class="image-user">
+								<a href="javascript:;" title="Lopez Gonzalez Leec Harly" tabindex="0">
+									<div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/images/default-profile.png')"></div>
+								</a>
+							</div>
+							<div class="category-title">
+								<h3>
+									<a href="javascript:;" tabindex="0"> Lopez Gonzalez Leec Harly</a>
+								</h3>
+							</div>
+							<p>
+								<div class="rating-container theme-krajee-fas rating-xs rating-animate is-display-only"><div class="rating-stars" title="Cuatro Estrellas"><span class="empty-stars"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span></span><span class="filled-stars" style="width: 80%;"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span></span><input type="text" id="w0" class="rating-input" name="rating" value="4" data-krajee-rating="rating_0ea3cc8d" tabindex="0"></div></div>							</p>
+						</div><div class="single-category col-6 slick-slide slick-active" style="width: 186px;" data-slick-index="1" aria-hidden="false" tabindex="0">
+							<div class="image-user">
+								<a href="javascript:;" title="Hernandez Oviedo Jairo" tabindex="0">
+									<div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/images/default-profile.png')"></div>
+								</a>
+							</div>
+							<div class="category-title">
+								<h3>
+									<a href="javascript:;" tabindex="0"> Hernandez Oviedo Jairo</a>
+								</h3>
+							</div>
+							<p>
+								<div class="rating-container theme-krajee-fas rating-xs rating-animate is-display-only"><div class="rating-stars" title="Sin Calificar"><span class="empty-stars"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span></span><span class="filled-stars" style="width: 0%;"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span></span><input type="text" id="w1" class="rating-input" name="rating" value="0" data-krajee-rating="rating_0ea3cc8d" tabindex="0"></div></div>							</p>
+						</div><div class="single-category col-6 slick-slide slick-active" style="width: 186px;" data-slick-index="2" aria-hidden="false" tabindex="0">
+							<div class="image-user">
+								<a href="javascript:;" title="Dsanchez98" tabindex="0">
+									<div class="image" style="background-image:url('http://test.ticmakers.com/ofercampo/web/images/default-profile.png')"></div>
+								</a>
+							</div>
+							<div class="category-title">
+								<h3>
+									<a href="javascript:;" tabindex="0"> Dsanchez98</a>
+								</h3>
+							</div>
+							<p>
+								<div class="rating-container theme-krajee-fas rating-xs rating-animate is-display-only"><div class="rating-stars" title="Sin Calificar"><span class="empty-stars"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="far" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg><!-- <i class="far fa-star"></i> --></span></span><span class="filled-stars" style="width: 0%;"><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span><span class="star"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> --></span></span><input type="text" id="w2" class="rating-input" name="rating" value="0" data-krajee-rating="rating_0ea3cc8d" tabindex="0"></div></div>							</p>
+						</div></div></div></div>
+
+				<!--=======  End of category container  =======-->
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--=====  End of user slider  ======-->
+
+    <!--=============================================
+	=            Brand logo slider         =
+	=============================================-->
+
+<div class="slider brand-logo-slider mb-35">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!--=======  blog slider section title  =======-->
+
+				<div class="section-title">
+					<h3>
+						Aliados</h3>
+				</div>
+
+				<!--=======  End of blog slider section title  =======-->
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<!--=======  brand logo wrapper  =======-->
+
+				<div class="brand-logo-wrapper pt-20 pb-20 slick-initialized slick-slider">
+
+											<!--=======  single-brand-logo  =======-->
+
+						
+
+						<!--=======  End of single-brand-logo  =======-->
+											<!--=======  single-brand-logo  =======-->
+
+						
+
+						<!--=======  End of single-brand-logo  =======-->
+											<!--=======  single-brand-logo  =======-->
+
+						
+
+						<!--=======  End of single-brand-logo  =======-->
+					
+				<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 558px; transform: translate3d(0px, 0px, 0px);"><div class="col slick-slide slick-current slick-active" style="width: 186px;" data-slick-index="0" aria-hidden="false" tabindex="0">
+							<div class="single-brand-logo">
+									<a target="_blank" href="https://www.ccibague.org/" tabindex="0">
+									<div class="image" style="background-image:url('/ofercampo/web/images/aliados/camara_comercio.png')"></div>
+								</a>
+							</div>
+						</div><div class="col slick-slide slick-active" style="width: 186px;" data-slick-index="1" aria-hidden="false" tabindex="0">
+							<div class="single-brand-logo">
+									<a target="_blank" href="http://itague.co/" tabindex="0">
+									<div class="image" style="background-image:url('/ofercampo/web/images/aliados/itague.png')"></div>
+								</a>
+							</div>
+						</div><div class="col slick-slide slick-active" style="width: 186px;" data-slick-index="2" aria-hidden="false" tabindex="0">
+							<div class="single-brand-logo">
+									<a target="_blank" href="http://www.ticmakers.com/" tabindex="0">
+									<div class="image" style="background-image:url('/ofercampo/web/images/aliados/tic_makers.png')"></div>
+								</a>
+							</div>
+						</div></div></div></div>
+
+				<!--=======  End of brand logo wrapper  =======-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--=====  End of Brand logo slider  ======-->
+</div>    <!-- </div> -->
+
+    		<!--=============================================
+	=            Footer         =
+	=============================================-->
+
+	<footer>
+
+		<!--=======  newsletter section  =======-->
+
+<div class="newsletter-section pt-50 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-sm-20 mb-xs-20">
+                <!--=======  newsletter title =======-->
+
+                <div class="newsletter-title">
+                    <h1>
+                        <img src="/ofercampo/web/assets/f377f89d/images/icon-newsletter.png" alt="">
+                        Boletín informativo                    </h1>
+                </div>
+
+                <!--=======  End of newsletter title  =======-->
+            </div>
+
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <!--=======  subscription-form wrapper  =======-->
+
+                <div class="subscription-form-wrapper d-flex flex-wrap flex-sm-nowrap">
+                    <p class="mb-xs-20">Suscríbase y reciba las últimas noticias de Ofercampo</p>
+                    <div class="subscription-form">
+                        <form id="mc-form" class="mc-form subscribe-form" novalidate="true">
+                            <input type="email" id="mc-email" autocomplete="off" placeholder="Ingrese su correo electrónico" name="EMAIL">
+                            <button id="mc-submit" type="submit"> Suscribirse</button>
+                        </form>
+
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                        </div><!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+
+                <!--=======  End of subscription-form wrapper  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--=======  End of newsletter section  =======-->
+		<!--=======  footer navigation  =======-->
+
+<div class="footer-navigation-section pt-40 pb-40">
+    <div class="container">
+        <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-xs-30">
+                <!--=======  single navigation section  =======-->
+                <div class="single-navigation-section">
+                    <h3 class="nav-section-title">Menú principal</h3>
+                    <ul>
+                                                <li> 
+                            <a href="/ofercampo/web/site/index" target="_self">Inicio</a>
+                        </li>
+                                                <li> 
+                            <a href="/ofercampo/web/want-buy" target="_self">Quiero comprar</a>
+                        </li>
+                                                <li> 
+                            <a href="/ofercampo/web/want-sell" target="_self">Quiero vender</a>
+                        </li>
+                                                <li> 
+                            <a href="/ofercampo/web/site/how-work" target="_self">Cómo funciona</a>
+                        </li>
+                                                <li> 
+                            <a href="/ofercampo/web/site/contact" target="_self">Contacto</a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!--=======  End of single navigation section  =======-->
+            </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mb-xs-30">
+                <!--=======  single navigation section  =======-->
+                <div class="single-navigation-section">
+                    <h3 class="nav-section-title">Información</h3>
+                    <ul>
+                                                <li> 
+                            <a href="/ofercampo/web/site/terms-service" target="_self">Términos de servicio</a>
+                        </li>
+                                                <li> 
+                            <a href="/ofercampo/web/site/privacy-policy" target="_self">Política de privacidad</a>
+                        </li>
+                                                <li> 
+                            <a href="http://soporte.test.com/" target="_self">Soporte</a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!--=======  End of single navigation section  =======-->
+            </div>
+                    </div>
+    </div>
+</div>
+
+<!--=======  End of footer navigation  =======-->
+		<!--=======  copyright section  =======-->
+
+<div class="copyright-section pt-35 pb-35">
+    <div class="container">
+        <div class="row align-items-md-center align-items-sm-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center text-md-left">
+                <!--=======  copyright text	  =======-->
+
+                <div class="copyright-segment">
+                    <!-- <p>
+	                            <a href="#">Privacy Policy</a>
+	                            <span class="separator">|</span>
+	                            <a href="#">Term and conditions</a>
+	                        </p> -->
+                    <p class="copyright-text">© 2019 <a href="http://www.ticmakers.com/" target="_blank">TIC Makers S.A.S.</a>
+                        Todos los derechos reservados                    </p>
+                </div>
+
+                <!--=======  End of copyright text	  =======-->
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--=======  End of copyright section  =======-->
+	</footer>
+
+	<!--=====  End of Footer  ==== ==-->
+	
+	
+	<!--=======  Start Modal  =======-->
+
+	
+<div id="default-modal" class="fade modal" role="dialog" aria-hidden="true" style="display: none;" aria-labelledby="default-modal-label">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 id="default-modal-label" class="modal-title">{titulo}</h5>
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+</div>
+<div class="modal-body">
+
+</div>
+
+</div>
+</div>
+</div> 
+	<!--=======  End Modal  =======-->
+
+
+    <script src="/ofercampo/web/assets/704aa9a6/jquery.js"></script>
+<script src="/ofercampo/web/assets/6149f17a/yii.js"></script>
+<script src="/ofercampo/web/assets/6149f17a/yii.activeForm.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/popper.min.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/bootstrap.min.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/plugins.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/dropzone.js"></script>
+<script src="/ofercampo/web/assets/f377f89d/js/main.js"></script>
+<script src="/ofercampo/web/assets/de6b22b6/searchbar/main.js"></script>
+<script src="/ofercampo/web/assets/5315a8f3/js/star-rating.js"></script>
+<script src="/ofercampo/web/assets/5315a8f3/js/locales/es.js"></script>
+<script src="/ofercampo/web/assets/5315a8f3/themes/krajee-fas/theme.js"></script>
+<script src="/ofercampo/web/assets/615560ab/js/kv-widgets.js"></script>
+<script src="/ofercampo/web/assets/1c06d653/toastr/toastr.min.js"></script>
+<script src="/ofercampo/web/assets/1c06d653/bootbox.js/bootbox.js"></script>
+<script src="/ofercampo/web/assets/1a1d1b67/base.js"></script>
+<script src="/ofercampo/web/js/site.js"></script>
+<script>setTypeSearch('S');
+    function reloadWindow(elem) {
+        let url = $(elem).attr('data-url');
+        window.location.href = url;
+    }</script>
+<script>jQuery(function ($) {
+jQuery('#search-form').yiiActiveForm([], {"errorSummary":".alert.alert-danger","errorCssClass":"is-invalid","successCssClass":"is-valid","validationStateOn":"input"});
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#w0').data('rating')) { jQuery('#w0').rating('destroy'); }
+jQuery('#w0').rating(rating_0ea3cc8d);
+
+if (jQuery('#w1').data('rating')) { jQuery('#w1').rating('destroy'); }
+jQuery('#w1').rating(rating_0ea3cc8d);
+
+if (jQuery('#w2').data('rating')) { jQuery('#w2').rating('destroy'); }
+jQuery('#w2').rating(rating_0ea3cc8d);
+
+jQuery('#default-modal').modal({"show":false,"backdrop":"static","keyboard":false});
+});</script>
+<script>jQuery(window).on('load', function () {
+
+    window.TEXT_EMPTY = 'Seleccione';
+    bootbox.setLocale('es-CO');
+    
+
+});</script>
+    <div id="move-modal"></div>
+
+    
+<div id="default-modal" class="fade modal" role="dialog" aria-hidden="true" style="display: none;" aria-labelledby="default-modal-label">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 id="default-modal-label" class="modal-title">{title}</h5>
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+</div>
+<div class="modal-body">
+
+</div>
+
+</div>
+</div>
+</div>
+
+</body></html>
